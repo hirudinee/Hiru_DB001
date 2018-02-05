@@ -15,7 +15,7 @@ exports.handler = function (event, context, callback) {
 	}, function (receivedMessages) {
 		receivedMessages.forEach(message => {
 			// your logic to access each message through out the loop. Each message is available under variable message 
-			// within this block
+			within this block
 		})
 	}, function (error) {
 		// implement error handling logic here
