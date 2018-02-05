@@ -6,9 +6,10 @@ exports.handler = function (event, context, callback) {
 		Item: { 'Name': 'Hiru' }
 	}, function (err, data) {
 		if (err) {
-			//handle error
+			console.log(err);
 		} else {
 			//your logic goes here
+			console.log(data);
 		}
 	});
 
