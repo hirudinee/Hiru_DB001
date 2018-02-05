@@ -4,7 +4,7 @@ exports.handler = function (event, context, callback) {
 
 
 	ddb.put({
-		TableName: 'hiruTable',
+		TableName: 'ThuvvaTable',
 		Item: {
 			'Name': 'Hiru',
 			'ID': '001'
