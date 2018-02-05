@@ -4,10 +4,11 @@ exports.handler = function (event, context, callback) {
 
 
 	ddb.put({
-		TableName: 'ThuvvaTable',
+		TableName: 'testhiru',
 		Item: {
 			'Name': 'Hiru',
-			'ID': '001'
+			'ID': '001',
+			'sample': '01'
 		}
 	}, function (err, data) {
 		if (err) {
